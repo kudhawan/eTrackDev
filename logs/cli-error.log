@@ -1,0 +1,270 @@
+2016-02-03 10:07:22 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Cake" could not be found.
+Exception Attributes: array (
+  'class' => 'Cake',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('cake')
+#1 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /opt/lampp/htdocs/talentquery/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-02-03 10:07:38 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Bcake" could not be found.
+Exception Attributes: array (
+  'class' => 'Bcake',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('bcake')
+#1 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /opt/lampp/htdocs/talentquery/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-02-03 10:08:22 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'talentquarry.job_skills' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'job_skills', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('job_skills', Array)
+#2 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('job_skills')
+#3 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('JobSkills')
+#7 [internal function]: Bake\Shell\Task\ModelTask->main('job_skills')
+#8 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#9 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#10 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /opt/lampp/htdocs/talentquery/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-02-03 10:08:26 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'talentquarry.job_skills' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'job_skills', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('job_skills', Array)
+#2 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('job_skills')
+#3 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/talentquery/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('JobSkills')
+#7 [internal function]: Bake\Shell\Task\ModelTask->main('job_skills')
+#8 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#9 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#10 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /opt/lampp/htdocs/talentquery/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /opt/lampp/htdocs/talentquery/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-05-25 10:14:28 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:15:12 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:17:30 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:17:55 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:18:30 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:18:52 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(247): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ControllerTask.php(58): Bake\Shell\Task\ControllerTask->listAll()
+#9 [internal function]: Bake\Shell\Task\ControllerTask->main()
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-05-25 10:18:54 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:20:12 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2016-05-25 10:21:30 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#1 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'default', Array)
+#3 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(848): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(862): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/talentquarry/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\Task\ModelTask->main()
+#9 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#11 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /opt/lampp/htdocs/talentquarry/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /opt/lampp/htdocs/talentquarry/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+

@@ -1,0 +1,421 @@
+/*
+/* 
+ * Web Design &amp; HTML Conversion by Vinoth SN 
+ * Mail : vinothsn@gmail.com
+/* ============================================================================
+   Design &amp; Development 
+   ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline;
+}
+input:focus, button:focus, select:focus textarea, textarea:focus {
+		outline: 0px;
+		border-color: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+}
+body {
+		line-height: 1;
+}
+ol, ul, li {
+		list-style: none;
+}
+blockquote, q {
+		quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+}
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+}
+.fl {
+		float: left;
+}
+.fr {
+		float: right;
+}
+.middle {
+		vertical-align: middle;
+}
+.center {
+		text-align: center;
+}
+.left {
+		text-align: left;
+}
+.right {
+		text-align: right;
+}
+.justify {
+		text-align: justify;
+}
+.clearFix {
+		clear: both;
+}/* Reset Document */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700");
+
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	color:#29282E;
+	font-weight:400 !important;
+	line-height:24px;
+	background:#D8DDE6;
+	text-align:center;
+	text-rendering: optimizeLegibility;
+	    font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		-webkit-font-smoothing: antialiased;
+}
+
+header {
+	background:#29282E;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+video {
+	width:95%;
+	position:relative;
+	padding:5px;
+}
+
+.land-logo a {
+	display:block;
+	text-indent:-99999%;
+	overflow:hidden;
+	width:135px;
+	height:50px;
+	background:url(../images/alberta/logo-alberta.png) no-repeat 0 0;
+}
+
+.land-btn {
+	text-align:right;
+	margin-top:10px;
+}
+
+.land-btn a {
+	display:inline-block;
+	margin-left:20px;
+	text-decoration:none;
+}
+
+.land-btn-default {
+	border-radius:4px;
+	background:#02B2DE;
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.custom-btn {
+	background:#02B2DE;
+	font-size:17px;
+	font-weight:500;
+	color:#fff;
+	padding-top:18px;
+	padding-bottom:18px;
+}
+
+.custom-btn:hover {
+	color:#F7F7F7;
+}
+
+.land-btn-default:hover {
+	color:#F7F7F7;
+	background:#007D9C;
+}
+
+.dblue {
+	background:#214451;
+}
+
+.lblue {
+	background:#02B2DE;
+}
+
+.land-content-bg {
+	background:url(../images/alberta/content-bg.png) repeat-x top center;
+	padding-top:40px;
+	padding-bottom:129px;
+	text-align:center;
+}
+
+.land-title {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.land-title h2 {
+	font-size:31px;
+	font-weight:700;
+	color:#29282E;
+}
+
+.land-desc {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.land-desc p {
+	font-size:19px;
+	line-height:30px;
+}
+
+.land-desktop-bg {
+	display:inline-block;
+	margin-top:20px;
+	width:80%;
+	height:627px;
+	background:url(../images/alberta/window-bg.png) no-repeat top center;
+	background-size:100%;
+}
+
+#flashcontent {
+	position:relative;
+	top:38px;
+	left:18px;
+	width:95%;
+}
+
+.land-newsletter-bg {
+	background:#F8F8F8;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.land-subscr-form {
+	width:60%;
+	margin:auto;
+}
+
+.land-subscr-form > form {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.custom-form {
+	padding:30px;
+}
+
+.land-desc > p > span {
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.land-footer {
+	background:#fff;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.icon-btn {
+	margin-left:30px;
+	margin-right:30px;
+}
+
+.land-footer-links {
+	margin-top:20px;
+}
+
+.land-footer-links ul li {
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.land-footer-links ul li a {
+	text-decoration:none;
+	color:#607186;
+}
+.land-footer-links ul li a:hover {
+	color:#485D76;
+}
+
+.land-copy-bg {
+	padding-top:6px;
+	padding-bottom:6px;
+	color:#607186;
+}
+
+.animation-outer {
+	position:relative;
+	top:150px;
+	left:-40px;
+	
+}
+
+.animation-outer-reset {
+	position:relative;
+	top:35px;
+	left:0px;
+	
+}
+
+@media screen and (max-width: 760px) {
+	
+	.land-logo a{
+		text-align:center;
+		margin:auto;
+	}
+	
+	.land-btn {
+		text-align:center;
+		margin-top:20px;
+	}
+	
+	.land-desc > p  > span {
+		font-size:14px;
+		margin-right:5px;
+		margin-left:5px;
+	}
+	
+	.land-desc > p {
+		font-size:15px;
+	}
+	
+	.land-desc > p > span {
+
+	}
+	
+	
+}
+
+@media screen and (max-width: 860px) {
+	.custom-form {
+		padding:10px;
+	}
+	
+	.custom-btn {
+		padding-top:4px;
+		padding-bottom:4px;
+	}
+	
+	.land-subscr-form {
+		width:95%;
+	}
+	
+	
+}
+
+@media screen and (max-width: 530px) { 
+	.icon-btn {
+		padding:0px;
+		margin:0px;
+	}
+	
+	.land-desktop-bg {
+		background:none;
+		height:300px;
+	}
+	
+	.animation-outer {
+		left:0px;
+		
+	}
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 940px) {
+	
+
+	
+	.animation-outer {
+		position:relative;
+		top:30px;
+		left:-20px;
+		
+	}
+}
+
+.tag-heading {
+	font-weight:300;
+	font-size: 39px;
+}
+.tag-line {
+	font-weight:300; 
+	font-size: 18px;
+}
+
+.tag-heading.bold {
+	font-weight:400;
+	font-size: 39px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+		.tag-heading {
+			font-size: 27px;
+		}
+		.tag-line {
+			font-size: 14px;
+		}
+
+		.tag-heading.bold {
+			font-size: 27px;
+		}
+}
+
+@media screen and (min-width: 987px) and (max-width: 1200px) {
+	.land-desktop-bg {
+		height:500px;
+	}
+	
+	.animation-outer {
+		top:100px;
+		left:-40px;
+	}
+	
+	.land-content-bg {
+		padding-bottom:80px;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 986px) {
+	.land-desktop-bg {
+		height:500px;
+
+	}
+	
+	.animation-outer {
+		top:100px;
+		left:-40px;
+	}
+	
+	.land-content-bg {
+		padding-bottom:80px;
+	}
+}
+
+@media screen and (min-width: 240px) and (max-width: 412px) {
+	.land-desktop-bg {
+		height:250px;
+
+	}
+	
+	.animation-outer {
+		top:10px;
+		left:0px;
+	}
+}
+
+
+

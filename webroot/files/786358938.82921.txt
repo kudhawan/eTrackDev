@@ -1,0 +1,18 @@
+
+		if($this->request->is('post')):
+		
+				$data = $this->request->data;
+				$teams = $team_tb->find()->where(['Teams.id' => $data['id']])->first();
+				$data['projects'] = $data['projects'];
+				$data['designation_id'] = $data['designation_id'];
+				if(isset($data['position']))
+					$data['position_id'] = $data['position'];
+				$data['projects'] = $data['projects'];
+				$teams = $team_tb->patchEntity($teams, $data);
+				
+        	if($team_tb->save($teams)):
+				$this->set(['message'=>'Member has been updated successfully', 'url' => 'members', '_serialize' => ['message','url']]);
+			else:
+				throw new BadRequestException('Member update could not be saved.');
+			endif;
+		endif;

@@ -1,0 +1,9 @@
+
+.header-image{
+	width: 100%;
+}
+
+.header-image img{
+	margin: 0 auto;
+	display: table;
+}

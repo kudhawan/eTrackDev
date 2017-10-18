@@ -1,0 +1,128 @@
+.actions > a {
+    padding: 0 5px;
+}
+.error-message
+{
+color:#d84a38;
+}
+
+table input {
+    width: 100%;
+}
+table select {
+padding: 3px;
+}
+dl {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+dt, dd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid #ddd;
+    border-image: none;
+    border-left: medium none;
+    border-top: 1px solid #ddd;
+    display: inline-block;
+    padding: 10px;
+    width: 35%;
+}
+dd {
+    border-left: 1px solid #ddd;
+    width: 64%;
+}
+.actions > ul {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.actions li {
+    list-style-type: none;
+    padding: 2px;
+}
+div.input {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+div.input input, div.input select, div.input textarea {
+    background-color: #fff;
+    background-image: none;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+div.input input[type=file]
+{
+	border:none;
+}
+fieldset img {
+    display: block;
+    margin: 25px 12px;
+}	
+h2 a
+{
+	float:right;
+	margin-right:10px
+}
+.checkbox input[type=checkbox], .radio input[type=radio] {
+display: inline-block;
+width: 20px;
+margin: 0;
+position: static;
+height: 18px;
+}
+.checkbox > label, .radio > label {
+  padding-left: 10px;
+  vertical-align: top;
+} {
+  padding-left: 10px;
+  vertical-align: top;
+}
+.filter
+{
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.filter table 
+{
+	margin-bottom: 0;
+}
+.filter table tr td:last-child {
+padding-top: 14px;
+}
+.paginator
+{
+	width:100%;
+	margin-top: 10px;
+}
+strong
+{
+font-size: 15px;
+}
+.img-st{
+    width: 100px;
+    height: 100px;
+}
+.error{
+	color:red;
+}
+#fl-er{
+	background-color: rgba(255, 0, 0 , 0.6);
+	border-color: rgba(255, 0, 0, 0.6);
+}
+#fl-er .error{
+    color: #fff;
+}
+#fl-sc{
+	background-color: #dff0d8;
+	border-color: #dff0d8;
+}
+.btn.mr-b-tp{
+	margin-top:24px;
+}
